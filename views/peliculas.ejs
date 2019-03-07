@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="resultadoBusqueda.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <h1>que se io</h1> -->
+  <!-- <h1><%= busqueda %></h1> -->
+  
+// tengo que armar las tarjetas metiendo esto dentro de un div
+  <% for (let i = 0; i < title.length; i++) {%>
+    <h1><%= title[i] + " (" + year[i] + ")"%></h1>
+    <img src="<%= busqueda[i] %>" alt="no se encuentra la imagenn" />
+  <% } %>
+
+</body>
+</html>

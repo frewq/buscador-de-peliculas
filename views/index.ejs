@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <title> <%= titulo %> </title> -->
+
+    <h1 >BUSCADOR DE PELÍCULAS</h1>
+
+    <form action="/peliculas" method="GET" target="_blank">
+
+      <div>
+        <input class="texto" type="text" name="buscar" autocomplete="off">
+        <button class="texto" type="submit">Buscar</button>
+      </div>
+
+    </form>
+
+</body>
+
+  <script>
+  
+    document.querySelector('.texto').addEventListener( 'keypress', () => console.log('objasdasdect'))
+  
+  </script>
+
+</html>
