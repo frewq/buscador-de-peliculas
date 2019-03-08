@@ -1,8 +1,25 @@
 *{
   background-color: crimson;
   font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid black; */
 }
 
 h1 {
-  /* display: inline-block; */
+  /* display: block; */
+}
+
+img {
+  /* display: block; */
+}
+
+div {
+  display: grid;
+  grid-auto-flow: column;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5fr;
+
+  justify-items: center;
+
+  margin-top: 50px;
 }

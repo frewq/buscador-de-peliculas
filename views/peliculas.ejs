@@ -11,11 +11,13 @@
   <!-- <h1>que se io</h1> -->
   <!-- <h1><%= busqueda %></h1> -->
   
-// tengo que armar las tarjetas metiendo esto dentro de un div
-  <% for (let i = 0; i < title.length; i++) {%>
-    <h1><%= title[i] + " (" + year[i] + ")"%></h1>
-    <img src="<%= busqueda[i] %>" alt="no se encuentra la imagenn" />
-  <% } %>
+<!-- // tengo que armar las tarjetas metiendo esto dentro de un div -->
+<% for (let i = 0; i < title.length; i++) {%>
+    <div>
+      <h1><%= title[i] + " (" + year[i] + ")"%></h1>
+      <img src="<%= busqueda[i] %>" alt="no se encuentra la imagenn" />
+    </div>
+    <% } %>
 
 </body>
 </html>
