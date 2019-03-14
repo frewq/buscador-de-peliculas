@@ -24,7 +24,7 @@ app.use('/peliculas', (req, res) => {
     arrayDatos = respuesta.data[Object.keys(respuesta.data)[0]];
     for (let i = 0; i < arrayDatos.length; i++) {
       // console.log('titulo: ', arrayDatos[i].Title);
-      // console.log('poster: ', arrayDatos[i].Poster);
+      // console.log('poster: ',npm  arrayDatos[i].Poster);
       titles.push(arrayDatos[i].Title);
       imagenURL.push(arrayDatos[i].Poster);
       years.push(arrayDatos[i].Year);
