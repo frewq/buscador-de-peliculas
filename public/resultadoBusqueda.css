@@ -2,7 +2,6 @@
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   /* border: 1px solid black; */
-  border: 1px dotted grey;
 }
 
 h1 {
@@ -13,14 +12,23 @@ img {
   /* display: block; */
 }
 
-div {
+.tarjeta {
+  border: 1px dotted black;
   display: grid;
+
+  /* grid: 1fr 2fr 2fr; */
+  /* /* grid-auto-flow: column; */
+
+  /* grid-auto-flow: dense ; */
+
   grid-auto-flow: column;
 
-  grid-template-columns: 1fr;
   grid-template-rows: 1fr 5fr;
+  /* grid-template-columns: 20% 50% 30%; */
+  /* grid-template-columns: 20% 80%; */
 
   justify-items: center;
+  /* align-items: center; */
 
   margin-top: 50px;
 }
