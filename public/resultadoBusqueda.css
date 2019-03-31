@@ -1,5 +1,5 @@
 *{
-  background-color: white;
+  /* background-color: white; */
   font-family: Arial, Helvetica, sans-serif;
   /* border: 1px solid black; */
 }
@@ -12,23 +12,18 @@ img {
   /* display: block; */
 }
 
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .tarjeta {
-  border: 1px dotted black;
-  display: grid;
+  margin: 8px;
+}
 
-  /* grid: 1fr 2fr 2fr; */
-  /* /* grid-auto-flow: column; */
-
-  /* grid-auto-flow: dense ; */
-
-  grid-auto-flow: column;
-
-  grid-template-rows: 1fr 5fr;
-  /* grid-template-columns: 20% 50% 30%; */
-  /* grid-template-columns: 20% 80%; */
-
-  justify-items: center;
-  /* align-items: center; */
-
-  margin-top: 50px;
+.card-img-top {
+  /* width: 100%; */
+  height: 20vw;
+  object-fit: cover;
 }
